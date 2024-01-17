@@ -26,13 +26,13 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan proyek ini:
 
     ```php
     <?php
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'nama_pengguna');
-    define('DB_PASS', 'kata_sandi');
-    define('DB_NAME', 'nama_database');
+    $DB_HOST = 'localhost';
+    $DB_USER = 'nama_pengguna';
+    $DB_PASS = 'kata_sandi';
+    $DB_NAME = 'nama_database';
     ```
 
-4. Impor skema database dari berkas `database.sql` ke dalam database yang baru dibuat.
+4. Impor skema database dari berkas `web-pemilu.sql` ke dalam database yang baru dibuat.
 
 5. Akses aplikasi melalui web browser:
 
