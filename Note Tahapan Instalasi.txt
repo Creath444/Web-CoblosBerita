@@ -1,0 +1,26 @@
+extract file.zip
+Usahakan struktur folders seperti ini :
+htdoc/
+  CoblosBerita/
+	Admin/
+	&beberapa folder assets*/
+	index.php
+	koneksi.php	
+	NOTE Tahapan Instalasi.txt
+	web-pemilu.sql
+
+selanjutnya PASTIKAN XAMPP SUDAH BERJALAN - APACHE DAN MYSQL:
+1. buka http://localhost/phpmyadmin/
+2. Buat database baru 
+->buat nama database 'web-pemilu' *nokutip
+3. klik bagian IMPORT
+->choose File
+->pilih web-pemilu.sql
+
+4. jalankan WEB
+http://localhost/CoblosBerita/
+
+LOGIN: 
+Username : Admin
+password : Admin
+
