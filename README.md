@@ -40,13 +40,6 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan proyek ini:
     http://localhost/CoblosBerita/
     ```
 
-## Struktur Direktori
-
-- `admin/`: Berisi halaman-halaman administrasi.
-- `assets/`: Berisi file-file statis seperti CSS, JavaScript, dan gambar.
-- `includes/`: Berisi file-file yang digunakan untuk menyertakan fungsi atau bagian-bagian halaman.
-- `news/`: Berisi halaman-halaman yang menampilkan berita.
-
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
