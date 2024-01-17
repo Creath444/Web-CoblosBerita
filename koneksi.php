@@ -1,8 +1,8 @@
 <?php 
 $DB_HOST = 'localhost';
-$DB_USER = 'nama_pengguna';
-$DB_PASS = 'kata_sandi';
-$DB_NAME = 'nama_database';
+$DB_USER = 'root';
+$DB_PASS = '';
+$DB_NAME = 'web-pemilu';
 
 $koneksi = mysqli_connect($DB_HOST,$DB_USER,$DB_PASS,$DB_NAME);
  
